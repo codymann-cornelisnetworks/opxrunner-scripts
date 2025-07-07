@@ -3,7 +3,7 @@ export LIBFABRIC_COMMIT="${LIBFABRIC_COMMIT:=}"
 export LIBFABRIC_SRC="${LIBFABRIC_SRC:=/home/cmann/libfabric-internal-build-repo}"
 export BUILD_TOP="${BUILD_TOP:=/home/cmann/builds}"
 export OPXR_MIDDLEWARE_TOP_DIR=/home/cmann/builds
-
+export RESULTS_TOP="${RESULTS_TOP:=/home/cmann/test-results}"
 
 # OPXRUNNER builds
 declare -A OPXRUNNER_SETUP_SCRIPTS=(
@@ -11,4 +11,3 @@ declare -A OPXRUNNER_SETUP_SCRIPTS=(
     ["OPX-JKR-GEN-MYR-2"]="/home/cmann/code/opxrunner/build/setup-env.sh"
 )
 
-export RESULTS_TOP="${RESULTS_TOP:=/home/cmann/test-results}"
